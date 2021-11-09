@@ -1,4 +1,4 @@
 from django.contrib import admin
-from . models import do
+from . models import a
 # Register your models here.
-admin.site.register(do)
+admin.site.register(a)

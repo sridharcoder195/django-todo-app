@@ -1,8 +1,8 @@
-from .models import do
+from .models import a
 from django import forms
 
 
 class myform(forms.ModelForm):
     class Meta:
-        model = do()
-        fields = ['name', 'priority', 'date']
+        model = a()
+        fields = ['name', 'priority', 'date',]
